@@ -62,7 +62,6 @@ select {
     height: 100%;
 }
 
-
 .container{
     font-family: "Josefin Sans",sans-serif;
     display: grid;
@@ -152,6 +151,10 @@ select {
     visibility: hidden;
 }
 
+.page-text button{
+    visibility: hidden;
+}
+
 .user-input img{
     width: 100%;
     padding: 1rem;
@@ -159,6 +162,7 @@ select {
     grid-area: arrow;
     background-color:  hsl(0, 74%, 74%);
     border-radius: 25px;
+    visibility: visible;
 }
 
 .user-input img:hover{
